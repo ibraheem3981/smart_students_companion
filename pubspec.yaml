@@ -1,0 +1,46 @@
+name: smart_student_companion
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  provider: ^6.1.5+1 # or ^6.1.2 — your version is fine
+  intl: ^0.20.2
+  flutter_local_notifications: ^19.5.0
+  timezone: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # Add this line (use the latest version — check pub.dev if needed)
+  flutter_launcher_icons: ^0.14.3 # or whatever the newest version is
+
+# ────────────────────────────────────────────────
+#   flutter_launcher_icons configuration goes here
+#   (at root level — NOT under dev_dependencies!)
+# ────────────────────────────────────────────────
+flutter_launcher_icons:
+  android: true # or "launcher_icon" if you want custom name
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon.png" # make sure this file really exists!
+
+# ────────────────────────────────────────────────
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
