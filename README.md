@@ -31,6 +31,8 @@ The application is divided into five core modules designed to maximize productiv
 5. **Study Timer**
    - An active study timer that tracks your current focus session.
    - Persistently logs and accumulates your **Weekly Study Time** so you can see how much effort you've put in throughout the week.
+## Direct Download Link
+[Download APK](https://github.com/ibraheem3981/smart_students_companion/releases/download/v1.0/Smart.Students.Companion.apk)
 
 ## How It Works 🛠️
 
