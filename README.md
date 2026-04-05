@@ -77,7 +77,6 @@ flutter build apk --release --split-per-abi
 ```
 2. Navigate to `build\app\outputs\flutter-apk\` and transfer the appropriate `app-[abi]-release.apk` file to your phone's storage to install it!
 
-*(Note: If you have a computer with low RAM (e.g. 4GB) and encounter Out of Memory errors during compilation, ensure you limit the Gradle daemon's memory footprint in `android/gradle.properties` before building!)*
 
 ## License 📜
 This project is open-source and available under the standard MIT License. Feel free to fork or modify it.
