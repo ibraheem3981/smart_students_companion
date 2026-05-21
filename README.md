@@ -51,7 +51,7 @@ To run and build this project from source, you will need:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/ibraheem3981/smart_students_companion.git
+git clone https://github.com/khaleeldev/smart_students_companion.git
 cd smart_student_companion
 ```
 
